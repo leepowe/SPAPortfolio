@@ -13,7 +13,7 @@ export default function Home(){
                 <li>Batch Script</li>
             </ul>
         <li class="skills-professional">Professional</li>
-            <ul class="skills-professional__list>
+            <ul class="skills-professional__list">
                 <li>Communication</li>
                 <li>Collaboration</li>
                 <li>Problem Solving</li>
@@ -28,5 +28,5 @@ export default function Home(){
             </ul>
     </ul>
     </article>
-    `
+    `;
 }
