@@ -1,8 +1,4 @@
-/* :root {
-    --negative-space-color: rgb(184, 115, 51);
-    --bg-color: #5f5f5f;
-}
-
+/*
 * {
     margin: 0;
     padding: 0;
@@ -119,6 +115,11 @@ button:hover{
     padding-right: 25%;
 } */ 
 
+:root {
+  --negative-space-color: rgb(184, 115, 51);
+  --bg-color: #5f5f5f;
+}
+
 * {
   border-radius: 10px;
   font-family: monospace;
@@ -126,25 +127,24 @@ button:hover{
 }
 
 html {
-  background: #111;
+  background: var(--negative-space-color);
   font-size: 16px;
 }
 
-a {
-  text-decoration: none;
+.nav-list {
+  list-style: none;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: rgb(75, 1, 65);
+  color: black;
+  text-shadow: 2px 2px 3px rgba(184,115,51,0.6);
 }
 
-header,
-main,
-footer {
-  background: #eee;
+body {
+  background: var(--bg-color);
 }
 
 header h1 {
@@ -152,12 +152,17 @@ header h1 {
 }
 
 nav {
-  background: #333;
+  background: var(--bg-color);
 }
 
-nav a {
+.nav-list {
   color: #fff;
   text-decoration: none;
+}
+
+.nav-list li {
+  background-color: var(--negative-space-color);
+  border-radius: 9px;
 }
 
 nav a:hover {
@@ -167,6 +172,10 @@ nav a:hover {
   box-shadow: -4px 6px 5px 0px rgba(75, 1, 65, 0.75);
   color: #000;
   transition: 0.5s;
+}
+
+p {
+  color: aqua;
 }
 
 section ul {

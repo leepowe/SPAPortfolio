@@ -58,14 +58,25 @@ header {
 nav {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100%;
   display: flex;
   flex-flow: row;
   justify-content: center;
+  overflow-x: hidden;
+  padding-top: 60px;
 }
 
-nav a {
+.nav-list{
+  display: flex;
+  position: relative;
+  
+}
+
+.nav-list li {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
   padding: 0.309em 2em;
 }
 
