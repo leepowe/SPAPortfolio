@@ -4,41 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/layout.css">
+    <!-- <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.css"> -->
+    <link rel="stylesheet" href="./css/old css.css">
     <title>Lee Powell, SDE</title>
 </head>
 <body>
-    <header class="header"></header>
+    <header class="header">
+            <h1 id="header__logo">Lee Powell</h1>
+            <ul class='nav-list'>
+                <li class='nav-list__home'>Home</li>
+                <li class='nav-list__projects'>Projects</li>
+                <li class='nav-list__contact'>Contact</li>
+            </ul>
+    </header>
     <div id="app">
-        <h1>About Me:</h1>
-        <article class="description">
-        <p>I enjoy developing programs to help automate repitition and simplify life. Programs that I enjoy working on are things to help save time and money in life and business. I am a heavy continuous improvement advocate and I'm always looking for a way to streamline my work and maintain higher quality.</p>
-        <ul class="skill-list">
-            <li class="skills-coding">Coding</li>
-                <ul class="skills-coding__list">
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>Batch Script</li>
-                </ul>
-            <li class="skills-professional">Professional</li>
-                <ul class="skills-professional__list">
-                    <li>Communication</li>
-                    <li>Collaboration</li>
-                    <li>Problem Solving</li>
-                    <li>Analytical</li>
-                </ul>
-            <li class="skills-personal">Personal</li>
-                <ul class="skills-personal__list">
-                    <li>Creativity</li>
-                    <li>Attention To Detail</li>
-                    <li>Negotiation</li>
-                    <li>Possitive Attitude</li>
-                </ul>
-        </ul>
-        </article>
+        <div class="aboutMe">
+            <figure class="profile__image">
+                <img src="images/Lee Powell.jpg" alt="Lee Powell" class="profile">
+            </figure>
+            <ariticle .aboutMe__skills>
+                <h1>About Me:</h1>
+                <article class="description">
+                    <p>I enjoy developing programs to help automate repitition and simplify life. Programs that I enjoy working on are things to help save time and money in life and business. I am a heavy continuous improvement advocate and I'm always looking for a way to streamline my work and maintain higher quality.</p>
+                    <ul class="skill-list">
+                        <li class="skills-coding">Coding</li>
+                            <ul class="skills-coding__list">
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>Batch Script</li>
+                            </ul>
+                        <li class="skills-professional">Professional</li>
+                            <ul class="skills-professional__list">
+                                <li>Communication</li>
+                                <li>Collaboration</li>
+                                <li>Problem Solving</li>
+                                <li>Analytical</li>
+                            </ul>
+                        <li class="skills-personal">Personal</li>
+                            <ul class="skills-personal__list">
+                                <li>Creativity</li>
+                                <li>Attention To Detail</li>
+                                <li>Negotiation</li>
+                                <li>Possitive Attitude</li>
+                            </ul>
+                    </ul>
+                </article>
+            </ariticle>
+        </div>
     </div>
     <footer class="footer"></footer>
     <script src="./js/index.js"></script>
